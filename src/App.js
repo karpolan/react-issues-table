@@ -1,16 +1,17 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { IssuesTable} from './components'
+import React, { Component } from 'react'
+import { IssuesViewer } from './containers'
+import './App.css'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <IssuesTable />
+
+        <IssuesViewer />
+
       </div>
     );
   }
 }
 
-export default App;
+export default App
