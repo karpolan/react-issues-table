@@ -1,3 +1,39 @@
+
+# React Issues Table
+
+This is a "homework" aka "test task" for position of Front-end Web developer.
+ 
+## Task
+
+Your assignment is to write a UI (component) to display React project issue status from GitHub.
+
+You can get the issue status data by using the following API: https://api.github.com/repos/facebook/react/issues
+
+You should use the table component from semantic-ui, and you can use other components in this library to improve the UX.
+https://react.semantic-ui.com/collections/table
+
+Build a table like the following to display React project issue status.
+
+| Issue Number | Title | Created At | Updated At | Labels | State |
+					
+Labels field should be a bulleted list with label names.
+
+### Format
+
+We are working in Node 8 and prefer ES6+ for the solution. Please write clean and concise React components.  No libraries outside the listed libraries should be used. The solution can be one or more source files.
+
+### Style
+
+While getting the right answer is important, we are also interested in how well thought out your solution is; are there easier, or faster ways? Is the code understandable to another engineer picking it up? If there are obvious ways it could be abstracted or extended, is it designed to support that? 
+
+
+### Questions?
+
+Some aspects of the problem are intentionally vague. We recommend that you make your own decisions rather than ask us and wait for an answer. Document any important assumptions that you make in your solution.
+
+
+## It is built using React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -26,43 +62,3 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
