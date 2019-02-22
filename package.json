@@ -1,9 +1,10 @@
 {
   "name": "react-issues-table",
+  "description": "Semantic UI Table Component for React",
   "version": "0.7.19",
+  "homepage": "https://karpolan.com/demos/react-issues-table/",
   "private": true,
   "author": "Anton Karpenko <i@karpolan.com> (https://karpolan.com)",
-  "description": "Semantic UI Table Component for React",
   "keywords": [
     "collection",
     "test",
