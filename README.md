@@ -2,6 +2,25 @@
 # React Issues Table
 
 This is a "homework" aka "test task" for position of Front-end Web developer.
+
+[On-line Demo](https://karpolan.com/demos/react-restaurants/)
+
+## Notes
+
+Ready to use **IssuesTable** React Component in */src/components/IssuesTable/IssuesTable.js*
+
+Usage:
+``` 
+import IssuesTable from './IssuesTable' 
+
+...
+
+<IssuesTable issues={...Array of issues here} />
+```
+
+Pagination for "long data" could be added using **[Pagination](https://react.semantic-ui.com/addons/pagination/)** component from [Semantic UI](https://react.semantic-ui.com/) library.
+
+If you need "live updates" for issues, use **loadIssues()** function from *src/storage/issues.js*
  
 ## Task
 

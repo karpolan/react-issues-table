@@ -58,7 +58,7 @@ const issuesTable = (props) => {
 		return <Table celled headerRow={headerRow} renderBodyRow={renderBodyRow} tableData={getTableData()} />
 	}
 
-	// Renders "Empty placeholder"
+	// Renders "Empty placeholder" as Table
 	const renderEmpty = () => {
 		return (
 			<Table celled>
