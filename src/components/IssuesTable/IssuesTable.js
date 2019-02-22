@@ -11,14 +11,13 @@ import 'semantic-ui-css/semantic.min.css' // CSS Styles for Semantic UI
 const issuesTable = (props) => {
 	const { issues } = props;
 	const issuesAreEmpty = !(Array.isArray(issues) && issues.length > 0);
-	//console.log('issuesTable(), issuesAreEmpty: %s, issues: ', issuesAreEmpty, issues);
 
 	// Header of the Table
 	const headerRow = ['Issue Number', 'Title', 'Created At', 'Updated At', 'Labels', 'State']
 
 	// Returns array of "row" objects
 	const getTableData = () => {
-		const result = []; 
+		const result = [];
 		if (issuesAreEmpty) return result; // There is no issues
 		// Create "row" object for every issue
 		issues.forEach(issue => {
@@ -36,7 +35,7 @@ const issuesTable = (props) => {
 		return result;
 	}
 
-	// Renders single "row" (actually transforms data) using data from "row" object
+	// Renders single Table row (actually transforms data) using data from the "row" object
 	const renderBodyRow = ({ number, title, createdAt, updatedAt, labels, state }, i) => {
 		const result = {
 			key: `row-${number}`,
@@ -45,14 +44,14 @@ const issuesTable = (props) => {
 				title,
 				createdAt,
 				updatedAt,
-				// Labels is array of "label" objects
-				<IssueLabels key={`labels-${number}`} labels={labels}/>,
+				// Labels is array of "label" objects. Setting of <IssueLabels key="" is requered!
+				<IssueLabels key={`labels-${number}`} labels={labels} />,
 				state
 			],
 		}
 		//console.log('renderBodyRow()', result);
 		return result;
-	}	
+	}
 
 	// Renders Table with list if issues
 	const renderFilled = () => {
@@ -74,9 +73,9 @@ const issuesTable = (props) => {
 		)
 	}
 
-	if (issuesAreEmpty) 
+	if (issuesAreEmpty)
 		return renderEmpty(); // No issues
-	else 
+	else
 		return renderFilled(); // List of issues
 }
 

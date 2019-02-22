@@ -2,7 +2,7 @@ import React from 'react'
 import { Table } from 'semantic-ui-react'
 
 /**
- * Renders Table Cell with list of props.labels
+ * Renders Table Cell with <ul> list of props.labels
  */
 const issueLabels = ({ labels }) => (
 	<Table.Cell>
