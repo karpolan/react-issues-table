@@ -3,7 +3,7 @@
 
 This is a "homework" aka "test task" for position of Front-end Web developer.
 
-[On-line Demo](https://karpolan.com/demos/react-restaurants/)
+[On-line Demo](https://karpolan.com/demos/react-issues-table/)
 
 ## Notes
 
