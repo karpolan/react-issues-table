@@ -1,7 +1,7 @@
 import dataSample from "./issues.json"
 
 /**
- * Пуеы list of Issues from API or from Local .json file.
+ * Gets list of Issues from API or from Local .json file.
  * @returns {Array<Object>} - array of "issue" objects
  */
 export const loadIssues = async () => {
