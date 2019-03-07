@@ -1,7 +1,7 @@
 
 # React Issues Table
 
-This is a "homework" aka "test task" for position of Front-end Web developer.
+This is a "test task" for position of Front-end Web developer for well known public company on the travel market.
 
 [On-line Demo](https://karpolan.com/demos/react-issues-table/)
 
@@ -49,6 +49,25 @@ While getting the right answer is important, we are also interested in how well 
 ### Questions?
 
 Some aspects of the problem are intentionally vague. We recommend that you make your own decisions rather than ask us and wait for an answer. Document any important assumptions that you make in your solution.
+
+## Feedback
+
+I spent about 3 hours to build this project including research of **Semantic UI** and writing the documentation...
+
+In 2 weeks I've got following feedback:
+
+- Mostly well documented 
+- Candidate probably has not used React before. Code is split into functions assigned to local variables instead of React components, which is inefficient and not idiomatic. It would be difficult to organize a larger project with this style. 
+- Uses data as component keys, ignoring the warnings printed to the JS console (keys in react must be unique, and in particular "created at" and "updated at" are often identical) 
+- Console statements left in code 
+- Loading state is broken (says "there are no issues" while issues are loading)  
+
+## Conclusion
+
+LOL and ROTFL: **Candidate probably has not used React before**
+
+BTW, there is no console warnings and keys are unique inside the lists :)
+
 
 
 ## It is built using React
