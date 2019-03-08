@@ -1,7 +1,7 @@
 
 # React Issues Table
 
-This is a "test task" for position of Front-end Web developer for well known public company on the travel market.
+This is a "test task" for position of Front-end Web developer in well known public company on the travel market.
 
 [On-line Demo](https://karpolan.com/demos/react-issues-table/)
 

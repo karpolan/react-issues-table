@@ -26,7 +26,10 @@ class IssuesViewer extends Component {
 			<div>
 				<h2>React Project Issue Status</h2>
 				<p>
-					Rendered using <b>&lt;IssuesTable&gt;</b> component based on <a rel="external noopener noreferrer" target="_blank" href="https://react.semantic-ui.com/collections/table">Semantic UI</a>
+					Rendered using <b>&lt;IssuesTable&gt;</b> component based 
+					on <a rel="external noopener noreferrer" target="_blank" href="https://react.semantic-ui.com/collections/table">Semantic UI</a>. 
+					Issues are fetched from official <a rel="external noopener noreferrer" target="_blank" href="https://github.com/facebook/react/issues">GitHub</a> repository 
+					of <b>React</b> library.
 				</p>
 
 				<IssuesTable issues={this.state.issues} />

@@ -8,7 +8,9 @@ class App extends Component {
       <div className="App">
         <header>
   				<h1>React Issues Table</h1>
-          <p>A "homework" aka "test task" for position of Web developer.</p>
+          <p>
+            A "homework" aka "test task" for position of Front-end Web developer in well known public company on the travel market.
+          </p>
         </header>
 
         <IssuesViewer />
