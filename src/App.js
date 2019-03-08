@@ -17,6 +17,7 @@ class App extends Component {
 
         <footer>
           <p>
+            <a rel="author noopener noreferrer" target="_blank" href="https://github.com/karpolan/react-issues-table">Source code on GitHub</a>.
             Copyright &copy;{" "}<a rel="author noopener noreferrer" target="_blank" href="https://karpolan.com">KARPOLAN</a>
           </p>
         </footer>        
