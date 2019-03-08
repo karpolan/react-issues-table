@@ -66,7 +66,7 @@ const issuesTable = (props) => {
 					<Table.Row>
 						<Table.Cell textAlign='center'>
 							There are no issues
-        		</Table.Cell>
+						</Table.Cell>
 					</Table.Row>
 				</Table.Body>
 			</Table>
