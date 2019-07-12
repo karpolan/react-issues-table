@@ -1,5 +1,3 @@
-import IssuesTable from './IssuesTable/IssuesTable'
+import IssuesTable from './IssuesTable/IssuesTable';
 
-export {
-	IssuesTable
-}
+export { IssuesTable };

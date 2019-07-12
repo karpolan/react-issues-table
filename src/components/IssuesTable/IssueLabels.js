@@ -1,15 +1,17 @@
-import React from 'react'
-import { Table } from 'semantic-ui-react'
+import React from 'react';
+import { Table } from 'semantic-ui-react';
 
 /**
  * Renders Table Cell with <ul> list of props.labels
  */
 const issueLabels = ({ labels }) => (
-	<Table.Cell>
-		<ul>
-			{labels.map(el => <li key={el.id}>{el.name}</li>)}
-		</ul>
-	</Table.Cell>
+  <Table.Cell>
+    <ul>
+      {labels.map((el) => (
+        <li key={el.id}>{el.name}</li>
+      ))}
+    </ul>
+  </Table.Cell>
 );
 
-export default issueLabels
+export default issueLabels;
